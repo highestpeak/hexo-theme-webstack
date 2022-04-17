@@ -1,9 +1,9 @@
 <div class="sidebar-menu toggle-others fixed">
   <div class="sidebar-menu-inner">
     <header class="logo-env">
-      <div class="logo">
-        <a href="<%= url_for('/index.html') %>" class="logo-expanded">
-          <img src="<%= url_for(setting.logo.expanded) %>" width="100%" alt="" />
+      <div class="logo" style="float: none;">
+        <a href="<%= url_for('/index.html') %>" class="logo-expanded" style="display: table;margin: 0 auto;" >
+          <img src="<%= url_for(setting.logo.expanded) %>" alt="" />
         </a>
         <a href="<%= url_for('/index.html') %>" class="logo-collapsed">
           <img src="<%= url_for(setting.logo.collapsed) %>" width="40" alt="" />
